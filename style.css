@@ -1,5 +1,5 @@
 p{
-    font-style: italic;
+    font-family: Arial;
 }
 
 #titulo-principal{
@@ -9,10 +9,13 @@ p{
     background-color: yellow;
 }
 input[type="password"]{
-    border: 50px blue;
+    border: 5px solid blue;
 }
 .importante{
     color: red;
+}
+.container > div:first-of-type > p{
+    color: violet;
 }
 .botao{
     background-color: white;
@@ -28,4 +31,7 @@ input[type="password"]{
 }
 p::first-letter{
     font-size: 1.3em;
+}
+li:first-of-type{
+    font-weight: bold;
 }
